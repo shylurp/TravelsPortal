@@ -1,0 +1,418 @@
+/* Slider Styling Starts here  */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: auto;
+  padding: 20px;
+  background-color: ghostwhite;
+  /* border: 2px solid #333; */
+  padding-right: -10px;
+  position: relative;
+  right: -175px;
+  align-content: center;
+}
+.mySlides {
+  display: none;
+}
+.top-nav-img {
+  width: 20%;
+  height: 20%;
+  /* position: relative; */
+  top: -40px;
+  max-height: fit-content;
+  margin-bottom: 0%;
+}
+.third-top-nav-img {
+  position: relative;
+  top: -15px;
+  right: -343px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  width: 77%;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.headermail {
+  position: relative;
+  top: -18px;
+  right: -856px;
+  color: red;
+}
+.headermail a {
+  color: red;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topnav a.active {
+  background-color: blue;
+  color: white;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  /* position: relative; */
+  bottom: -20px;
+  top: -40px;
+  width: 77%;
+  background-color: darkgrey;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+.second-top-nav-img {
+  width: 10%;
+  height: 10%;
+  /* float: right; */
+  position: relative;
+  /* top: -40px; */
+  right: -174px;
+}
+.container.after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.flight {
+  color: black;
+  margin: 1%;
+  /* padding: 1%; */
+  border: 3px solid blue;
+  width: 20% !important;
+  height: 617px !important;
+  background-color: whitesmoke;
+  /* top: -500px; */
+  /* position: relative; */
+  /* right: -40px; */
+}
+.columns {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 162%; /* Should be removed. Only for demonstration */
+}
+input[type="image"] {
+  appearance: none;
+  background-color: initial;
+  cursor: pointer;
+  padding: initial;
+  border: initial;
+  position: relative;
+  right: -127px;
+  top: 36px;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  top: 50px;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: relative;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  position: relative;
+  top: 50px;
+}
+
+.active,
+.dot:hover {
+  background-color: royalblue;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+
+/* inside slider images styling  */
+.slider1 {
+  width: 100%;
+}
+.slider2 {
+  width: 100%;
+}
+.slider3 {
+  width: 100%;
+}
+.visa-partA {
+  border: 3px solid blue;
+  width: 292px;
+  height: 230px;
+  padding: -15px;
+  padding-left: 11px;
+  background-color: whitesmoke;
+}
+.visa-partB {
+  border: 3px solid blue;
+  width: 292px;
+  height: 226px;
+  padding: 4px;
+  background-color: whitesmoke;
+}
+.indian-visa {
+  color: blue;
+  padding: -27%;
+  padding: -16px;
+  top: 10px;
+  right: 1;
+}
+.new-oci {
+  color: red;
+}
+
+.pass-renewal {
+  color: red;
+}
+
+.image12 {
+  width: 41%;
+  position: relative;
+  right: -22px;
+  top: 12px;
+}
+.image13 {
+  width: 30%;
+  position: relative;
+  top: 14px;
+  right: -195px;
+  bottom: -66px;
+}
+.image14 {
+  width: 30%;
+  position: relative;
+  right: -195px;
+  bottom: -13px;
+}
+.image15 {
+  width: 30%;
+  top: 10px;
+  position: relative;
+  right: -196px;
+  bottom: 106px;
+}
+
+.indian-services {
+  color: red;
+  position: relative;
+  top: 15px;
+}
+
+h1 {
+  background-color: red;
+  color: black;
+}
+
+.main-img1 {
+  width: 40%;
+  /* position: relative; */
+  left: 85px;
+  top: 11px;
+  padding: 10px;
+}
+.other-services {
+  position: relative;
+  top: -141px;
+  width: 300px;
+  height: 250px;
+  color: blue;
+}
+.caravan {
+  border: 3px solid blue;
+  width: 292px;
+  height: 174px;
+  padding: 4px;
+}
+.image16 {
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+.table-img1 {
+  width: 155px;
+  height: 100px;
+  position: relative;
+  right: -10px;
+}
+.table-img2 {
+  width: 155px;
+  height: 100px;
+  position: relative;
+  right: -16px;
+}
+.table-img3 {
+  width: 155px;
+  height: 100px;
+  position: relative;
+  right: -13px;
+}
+.table-img4 {
+  width: 155px;
+  height: 100px;
+  position: relative;
+  right: -9px;
+}
+.column-table {
+  position: relative;
+  top: -700px;
+  left: 500px;
+  border: spacing 10px;
+  border: 1px solid black;
+  border-color: black;
+  /* border-width: 5%; */
+  border-collapse: collapse;
+  /* margin: 5px; */
+  padding: 10px;
+}
+th,
+td {
+  vertical-align: bottom;
+  padding: 8px;
+  border: 1px solid black;
+}
+.row {
+  display: flex;
+  margin-left: 150px;
+  margin-right: -5px;
+  padding: 69.5px;
+  float: left;
+  margin-top: -68px;
+}
+tr:nth-child(odd) {
+  background-color: whitesmoke;
+}
+.img-99 {
+  position: relative;
+  width: 11%;
+}
+.img-100 {
+  position: relative;
+  right: -618px;
+  width: 7%;
+  top: -161px;
+}
+.img-200 {
+  position: relative;
+  width: 6%;
+  top: -162px;
+  right: -414px;
+}
+.img-300 {
+  position: relative;
+  width: 10%;
+  top: -162px;
+  right: -520px;
+}
+.img-400 {
+  position: relative;
+  width: 11%;
+  top: -168px;
+  right: -516px;
+}
+.copyright {
+  position: relative;
+  right: -382px;
+}
